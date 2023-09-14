@@ -1,0 +1,44 @@
+# poltextlab_nlp_ml_takehome
+
+# What to do with this repository
+
+1. Create a fork from this repository into your personal GitHub account
+2. In your own fork create a new branch with your name
+3. Commit your code as you would usually.
+4. When the task is completed, push the changes to your repository and let us know. We'll let you know who to add to your repo as a reviewer.
+
+In the code please comment and document as you would otherwise. Everything (variables, comments, etc.) should be in English. If you have any question let us know.
+
+# The Task
+
+The test is to classify New York Times articles into 21 categories. For the classification you should use two different methods (e.g.: Naive Bayes and Ridge regression) and compare the results based on their precision, recall, and F1-scores. You should also produce a figure that shows the best performing model's performance for each category. Make sure that the code is reproducible and multiple runs result in the same output.
+
+
+The data is in the `data/input` folder: `nytimes.csv`. For the excercise, use a 80/20 training-test split. The classification uses the article texts as the feature set.
+
+
+For the figure showing the per category results of the best model, you should use the category names. The name for each label is in the below table.
+
+|label|category name|
+|---|------------------|
+| 0 | Macroeconomics |
+| 1 | Civil Rights|
+| 2 | Health|
+| 3 | Agriculture|
+| 4 | Labor|
+| 5 | Education|
+| 6 | Environment|
+| 7 | Energy|
+| 8 | Immigration|
+| 9 | Transportation|
+| 10 | Law & Crime|
+| 11 | Welfare|
+| 12 | Housing|
+| 13 | Domestic Commerce|
+| 14 | Defense|
+| 15 | Technology|
+| 16 | Foreign Trade|
+| 17 | International Affairs|
+| 18 | Government|
+| 19 | Public Lands|
+| 20 | None|
